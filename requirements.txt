@@ -1,0 +1,18 @@
+#pip install -r requirements.txt
+
+torch
+numpy
+pandas
+scikit-learn
+onnx
+ezkl
+skl2onnx
+onnxruntime
+scikit-learn-intelex
+joblib
+uvicorn
+fastapi
+pydantic
+python-multipart
+web3
+requests
