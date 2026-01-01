@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: zk-ml # এখানে আপনার প্রজেক্টের নাম দিতে পারেন
+    runtime: python
+    plan: free # ফ্রি টিয়ার ব্যবহার করার জন্য
+    region: oregon # আপনার নিকটস্থ সার্ভার লোকেশন বেছে নিতে পারেন
+    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt"
+    startCommand: "uvicorn api.main:app --host 0.0.0.0 --port 10000"
+    envVars:
+      - key: PYTHONPATH
+        value: .
+      - key: PYTHON_VERSION
+        value: 3.11.7 # আপনার পিসির পাইথন ভার্সন অনুযায়ী এটি পরিবর্তন করতে পারেন
