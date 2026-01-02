@@ -9,3 +9,6 @@ pandas
 skl2onnx
 scikit-learn
 pipreqs
+onnxruntime
+python-multipart
+circomlibpy
