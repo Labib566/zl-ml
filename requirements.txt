@@ -12,3 +12,4 @@ pipreqs
 onnxruntime
 python-multipart
 circomlibpy
+streamlit
