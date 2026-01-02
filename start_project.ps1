@@ -32,6 +32,6 @@ Start-Sleep -Seconds 20
 
 # ৪. Streamlit App
 Write-Host "4. Starting Streamlit App..." -ForegroundColor Cyan
-Start-Process powershell -ArgumentList "-NoExit", "-Command", "& $activateVenv; streamlit run streamlit_app.py"
+Start-Process powershell -ArgumentList "-NoExit", "-Command", "& $activateVenv; streamlit run src/streamlit_app.py"
 
 Write-Host "All processes started successfully!" -ForegroundColor Green
