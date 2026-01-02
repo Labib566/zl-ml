@@ -1,3 +1,4 @@
+# uvicorn api.main:app --reload --port 8000
 from fastapi import FastAPI, HTTPException
 import os
 import sys
