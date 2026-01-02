@@ -1,3 +1,6 @@
+# streamlit_app.py
+# streamlit run streamlit_app.py
+
 import streamlit as st
 import requests
 import json
