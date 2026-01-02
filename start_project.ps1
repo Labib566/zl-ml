@@ -12,7 +12,7 @@ Stop-PortProcess 8545
 Stop-PortProcess 8000
 Stop-PortProcess 8501
 
-$activateVenv = ".\.venv\Scripts\Activate.ps1"
+$activateVenv = "D:\BLOCKCHAIN_PROJECT\BLC+ML\project_00\zeroknowledge\.venv\Scripts\Activate.ps1"
 
 # ১. Hardhat Node
 Write-Host "1. Starting Hardhat Node..." -ForegroundColor Cyan

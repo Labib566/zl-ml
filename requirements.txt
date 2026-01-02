@@ -13,3 +13,4 @@ onnxruntime
 python-multipart
 circomlibpy
 streamlit
+psutil
