@@ -7,8 +7,8 @@ template LogisticRegression() {
     signal input x[3];     // private input
     signal output y;       // public output (0 or 1)
 
-    var w[3] = [2010, -1490, 980];
-    var b = -210;
+    var w[3] = [6247, -4899, 2851];
+    var b = 20;
 
     signal z;
 
