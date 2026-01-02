@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "D:\\BLOCKCHAIN_PROJECT\\BLC+ML\\project_00\\chatgpt\\blockchain\\contracts\\Verifier.sol": {
+    "D:\\BLOCKCHAIN_PROJECT\\BLC+ML\\project_00\\Zero_knowledge_m_learning\\blockchain\\contracts\\Verifier.sol": {
       "lastModificationDate": 1766502991665,
       "contentHash": "22301d603003094e383001f6a699b5f2",
       "sourceName": "contracts/Verifier.sol",
@@ -37,7 +37,7 @@
         "Groth16Verifier"
       ]
     },
-    "D:\\BLOCKCHAIN_PROJECT\\BLC+ML\\project_00\\chatgpt\\blockchain\\contracts\\ZKMLVerifier.sol": {
+    "D:\\BLOCKCHAIN_PROJECT\\BLC+ML\\project_00\\Zero_knowledge_m_learning\\blockchain\\contracts\\ZKMLVerifier.sol": {
       "lastModificationDate": 1766503298623,
       "contentHash": "14dbb732b2bc60a460f87993578b8bb8",
       "sourceName": "contracts/ZKMLVerifier.sol",
